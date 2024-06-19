@@ -1,7 +1,7 @@
 export const Cards = ({ onOpen }: { onOpen: (value: boolean) => void }) => {
   return (
     <div
-      className="flex items-center gap-4 bg-white border border-[#f2f5f9] p-4 rounded-md"
+      className="flex items-center gap-4 bg-white border border-[#f2f5f9] p-4 rounded-md cursor-pointer"
       onClick={() => onOpen(true)}
     >
       <div className="bg-[#f2f5f9] p-3 rounded-md h-full flex items-center justify-center">
